@@ -1,7 +1,7 @@
-#include "sbus/sbus_tty_impl.h"
+#include "rpi_sbus/tty/sbus_tty_impl.h"
 #ifdef RPISBUS_TTY_IMPL_DUMMY
 
-#include "sbus/sbus_tty.h"
+#include "rpi_sbus/tty/sbus_tty.h"
 #include <stdlib.h>
 
 

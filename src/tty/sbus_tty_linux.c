@@ -1,14 +1,14 @@
-#include "sbus/sbus_tty_impl.h"
+#include "rpi_sbus/tty/sbus_tty_impl.h"
 #ifdef RPISBUS_TTY_IMPL_LINUX
 
-#include "sbus/sbus_tty.h"
+#include "rpi_sbus/tty/sbus_tty.h"
 
 #include <unistd.h>
 #include <fcntl.h>
 #include <asm/termbits.h>
 #include <sys/ioctl.h>
 
-#include "sbus/sbus_spec.h"
+#include "rpi_sbus/sbus_spec.h"
 
 
 int sbus_install(const char path[], bool blocking, uint8_t timeout)

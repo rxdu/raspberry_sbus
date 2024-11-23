@@ -1,7 +1,7 @@
-#include "SBUS.h"
-#include "sbus/sbus_tty.h"
-#include "sbus/sbus_low_latency.h"
-#include "sbus/packet_decoder.h"
+#include "rpi_sbus/driver/SBUS.h"
+#include "rpi_sbus/tty/sbus_tty.h"
+#include "rpi_sbus/tty/sbus_low_latency.h"
+#include "rpi_sbus/decoder/packet_decoder.h"
 
 SBUS::SBUS() noexcept
     : _fd(-1)

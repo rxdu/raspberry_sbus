@@ -1,7 +1,7 @@
-#include "sbus/sbus_low_latency_impl.h"
+#include "rpi_sbus/tty/sbus_low_latency_impl.h"
 #ifndef RPISBUS_LOW_LATENCY_IMPL
 
-#include "sbus/sbus_low_latency.h"
+#include "rpi_sbus/tty/sbus_low_latency.h"
 
 #include <stdio.h>
 

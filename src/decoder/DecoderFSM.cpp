@@ -1,5 +1,5 @@
-#include "sbus/DecoderFSM.h"
-#include "sbus/packet_decoder.h"
+#include "rpi_sbus/decoder/DecoderFSM.h"
+#include "rpi_sbus/decoder/packet_decoder.h"
 
 DecoderFSM::DecoderFSM()
         : _state(State::WAIT_FOR_HEADER)

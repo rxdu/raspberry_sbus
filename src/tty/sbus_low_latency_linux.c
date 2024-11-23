@@ -1,7 +1,7 @@
-#include "sbus/sbus_low_latency_impl.h"
+#include "rpi_sbus/tty/sbus_low_latency_impl.h"
 #ifdef RPISBUS_LOW_LATENCY_IMPL_LINUX
 
-#include "sbus/sbus_low_latency.h"
+#include "rpi_sbus/tty/sbus_low_latency.h"
 
 // thanks to https://github.com/projectgus/hairless-midiserial/blob/add59f04c3b75044f3033f70d5523685b6b9dd0a/src/PortLatency_linux.cpp
 

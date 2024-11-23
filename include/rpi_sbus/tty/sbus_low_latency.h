@@ -5,7 +5,7 @@
 #include <stdbool.h>
 #endif
 
-#include "sbus/sbus_error.h"
+#include "rpi_sbus/sbus_error.h"
 
 #ifdef __cplusplus
 extern "C" {

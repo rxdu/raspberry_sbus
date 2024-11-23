@@ -2,8 +2,8 @@
 #define RPISBUS_SBUS_H
 
 #include <cstdint>
-#include "sbus/sbus_error.h"
-#include "sbus/DecoderFSM.h"
+#include "rpi_sbus/sbus_error.h"
+#include "rpi_sbus/decoder/DecoderFSM.h"
 
 class SBUS
 {

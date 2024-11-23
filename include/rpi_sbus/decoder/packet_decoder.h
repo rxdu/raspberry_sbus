@@ -1,8 +1,8 @@
 #ifndef RPISBUS_PACKET_DECODER_H
 #define RPISBUS_PACKET_DECODER_H
 
-#include "sbus/sbus_error.h"
-#include "sbus/sbus_packet.h"
+#include "rpi_sbus/sbus_error.h"
+#include "rpi_sbus/sbus_packet.h"
 
 #ifdef __cplusplus
 extern "C" {

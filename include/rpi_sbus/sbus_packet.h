@@ -8,7 +8,7 @@
 #include <stdbool.h>
 #endif
 
-#include "sbus/sbus_spec.h"
+#include "rpi_sbus/sbus_spec.h"
 
 struct sbus_packet_t
 {

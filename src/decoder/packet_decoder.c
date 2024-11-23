@@ -1,4 +1,4 @@
-#include "sbus/packet_decoder.h"
+#include "rpi_sbus/decoder/packet_decoder.h"
 
 enum sbus_err_t sbus_decode(const uint8_t buf[],
                             struct sbus_packet_t *packet)
