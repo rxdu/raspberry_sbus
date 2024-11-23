@@ -2,10 +2,12 @@
 #define RPISBUS_DECODER_FSM_H
 
 #include <cstdint>
+#include <functional>
 #include "rpi_sbus/sbus_error.h"
 #include "rpi_sbus/sbus_packet.h"
 
-typedef void (*sbus_packet_cb)(const sbus_packet_t&);
+// typedef void (*sbus_packet_cb)(const sbus_packet_t&);
+using sbus_packet_cb = std::function<void(const sbus_packet_t&)>;
 
 class DecoderFSM
 {

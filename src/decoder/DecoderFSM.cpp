@@ -128,7 +128,7 @@ bool DecoderFSM::notifyCallback()
 {
     if (_packetCb)
         _packetCb(_lastPacket);
-    return _packetCb;
+    return (_packetCb != nullptr);
 }
 
 const sbus_packet_t& DecoderFSM::lastPacket() const

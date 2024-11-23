@@ -1,4 +1,4 @@
-#include "rpi_sbus/driver/SBUS.h"
+#include "rpi_sbus/SBUS.h"
 #include "rpi_sbus/tty/sbus_tty.h"
 #include "rpi_sbus/tty/sbus_low_latency.h"
 #include "rpi_sbus/decoder/packet_decoder.h"
